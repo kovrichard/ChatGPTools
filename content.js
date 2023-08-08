@@ -10,11 +10,11 @@ document.addEventListener('keydown', (event) => {
 		textarea.focus();
 	}
 
-	if (event.target.id === 'prompt-textarea' && event.key === 'ArrowDown') {
+	/*if (event.target.id === 'prompt-textarea' && event.key === 'ArrowDown') {
 		event.preventDefault();
 
 		const textarea = document.getElementById('prompt-textarea');
 		textarea.value = '';
 		textarea.focus();
-	}
+	}*/
 });
