@@ -2,7 +2,7 @@ document.addEventListener('keydown', (event) => {
 	if (event.target.id === 'prompt-textarea' && event.key === 'ArrowUp') {
 		event.preventDefault();
 
-		const elements = document.querySelectorAll('.empty\\:hidden');
+		const elements = document.querySelectorAll('[data-message-author-role="user"]');
 		const lastPrompt = elements[elements.length - 1].innerText;
 
 		const textarea = document.getElementById('prompt-textarea');
